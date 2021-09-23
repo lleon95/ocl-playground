@@ -15,7 +15,7 @@ Please add the following before make
 ```bash
 CUDA_VERSION=11.0
 PLATFORM=$(uname -m)
-export OPTIONS = -I/usr/local/cuda-${CUDA_VERSION}/targets/${PLATFORM}-linux/include -L/usr/local/cuda-${CUDA_VERSION}/lib64
+export OPTIONS="-I/usr/local/cuda-${CUDA_VERSION}/targets/${PLATFORM}-linux/include -L/usr/local/cuda-${CUDA_VERSION}/lib64"
 ```
 
 ## Compile
